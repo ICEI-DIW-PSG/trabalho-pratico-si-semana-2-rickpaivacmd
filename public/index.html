@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículo - Henrique Paiva</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <header class="top-section" role="banner">
+    <div class="container header-container">
+      <figure class="profile">
+        <img src="Perfil Henrique.JPEG" alt="Foto de Henrique Paiva" class="profile__photo" />
+      </figure>
+
+      <div class="header-info">
+        <h1 class="header-info__name">Henrique Paiva</h1>
+        <div class="header-info__grid">
+          <p class="header-info__bio">
+            Publicitário e universitário na área de tecnologia com mais de 4 anos de experiência com as mais diversas ferramentas e modelos de estratégia para produção de conteúdo.
+          </p>
+          <ul class="header-info__contacts" aria-label="Contatos">
+            <li><strong>Idade:</strong> 19 anos</li>
+            <li><strong>Email:</strong> <a href="mailto:Rickpaivadev@gmail.com">Rickpaivadev@gmail.com</a></li>
+            <li><strong>Telefone:</strong> <a href="tel:+5535999200414">(35) 99920-0414</a></li>
+            <li><strong>Endereço:</strong> Rua Elisa Filippeto Ricaldoni, 45 - Castelo</li>
+            <li><strong>Nascimento:</strong> 14/09/2005</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="middle-section" role="main">
+    <div class="container middle-grid">
+      <section class="card" aria-labelledby="exp-title">
+        <h2 id="exp-title" class="section-title">Experiência</h2>
+        <ul class="list">
+          <li>
+            <div class="item">
+              <div class="item__row"><span class="item__role">Freelancer de edição audiovisual</span><span class="item__dates">2021 – 2023</span></div>
+              <p class="item__desc">Edição para redes sociais, tratamento de áudio, organização de assets e fluxos de revisão.</p>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="item__row"><span class="item__role">Empreendedor na área de marketing</span><span class="item__dates">2023 – Atual</span></div>
+              <p class="item__desc">Planejamento e execução de conteúdo, gestão de projetos e relacionamento com clientes.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="edu-title">
+        <h2 id="edu-title" class="section-title">Educação</h2>
+        <ul class="list">
+          <li>
+            <div class="item">
+              <div class="item__row"><span class="item__role">Ensino Médio completo</span><span class="item__dates">Concluído</span></div>
+              <p class="item__desc">Colégio JP II.</p>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="item__row"><span class="item__role">Sistemas de Informação</span><span class="item__dates">PUC Minas</span></div>
+              <p class="item__desc">Curso superior em andamento.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bottom-section" role="contentinfo">
+    <div class="container bottom-grid">
+      <section aria-labelledby="skills-title">
+        <h2 id="skills-title" class="section-title section-title--invert">Habilidades</h2>
+        <ul class="list list--invert">
+          <li>Estratégias digitais multiplataformas</li>
+          <li>Administração de produção</li>
+          <li>Edição de arte</li>
+          <li>Captação</li>
+          <li>Liderança</li>
+          <li>Informática</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="lang-title">
+        <h2 id="lang-title" class="section-title section-title--invert">Línguas</h2>
+        <ul class="list list--invert">
+          <li>Português avançado</li>
+          <li>Inglês intermediário</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="extra-title">
+        <h2 id="extra-title" class="section-title section-title--invert">Outras Informações</h2>
+        <ul class="list list--invert">
+          <li>Disponibilidade para viagens</li>
+          <li>Portfólio sob demanda</li>
+        </ul>
+      </section>
+    </div>
+  </footer>
 </body>
 </html>
