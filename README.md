@@ -7,5 +7,5 @@
 - Matricula: 897765
 
 ## Print da tela da página criada (Curriculum Vitae)
-
+![Vers Curriculo Final](public/image.png)
 `<Coloque aqui o print da tela de inspeção do seu navegador>`
